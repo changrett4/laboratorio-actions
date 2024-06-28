@@ -65,7 +65,7 @@ jobs:
           name: node_modules
           path: node_modules
       - name: Run the tests
-        run: npm test -- --coverage
+        run: npm run test:cov
 
   build:
     runs-on: ubuntu-latest
